@@ -9,5 +9,5 @@ function getmenu()
         pizza_list_array.push(item);
         
         var remove_commas = pizza_list_array.join("<br># ");
-        document.getElementById("display_menu").innerHTML =  "# " + remove_commas;
+        document.getElementById("display_menu").innerHTML =htmldata;  "# " + remove_commas;
 	}
